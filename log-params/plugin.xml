@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors.templates">
+      <resolver
+            class="com.google.code.logparams.FormattedParamsResolver"
+            contextTypeId="java-statements"
+            description="Evaluates to the concatenated parameters&lt;br&gt;Example:&lt;br&gt;&lt;br&gt;&lt;b&gt;logger.error(&quot;${enclosing_method}. ${formatted_method_parameters});&lt;/b&gt;&lt;br&gt;&lt;br&gt;for method:&lt;br&gt;public static void method(String userName, String userEmail, String[] additionalParameters)&lt;br&gt;&lt;br&gt;will be resolved into:&lt;br&gt;logger.error(&quot;method. userName: &quot; + userName + &quot; userEmail: &quot; + userEmail + &quot; additionalParameters: &quot; + additionalParameters);"
+            name="formatted_method_parameters"
+            type="formatted_method_parameters">
+      </resolver>
+   </extension>
+
+</plugin>

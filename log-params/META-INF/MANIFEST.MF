@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Log-params
+Bundle-SymbolicName: log-params;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: log_params.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.jface.text
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
