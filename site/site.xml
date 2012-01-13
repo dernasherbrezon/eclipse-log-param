@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.google.code.log.param_1.0.0.201201131838.jar" id="com.google.code.log.param" version="1.0.0.201201131838" os="aix,hpux,linux,macosx,qnx,solaris,win32" ws="carbon,cocoa,gtk,motif,photon,win32,wpf" nl="en" arch="ia64,ia64_32,PA_RISC,ppc,sparc,x86,x86_64"/>
+</site>
