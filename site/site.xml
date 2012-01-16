@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/com.google.code.log.param_1.0.0.201201131855.jar" id="com.google.code.log.param" version="1.0.0.201201131855" os="" ws="" nl="" arch="">
+   <feature url="features/com.google.code.log.param_1.0.0.201201131855.jar" id="com.google.code.log.param" version="1.0.0.201201131855">
       <category name="General Purpose Tools"/>
    </feature>
    <category-def name="General Purpose Tools" label="General Purpose Tools"/>
