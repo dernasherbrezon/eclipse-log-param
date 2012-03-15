@@ -10,6 +10,13 @@
             name="formatted_method_parameters"
             type="formatted_method_parameters">
       </resolver>
+      <resolver
+            class="com.google.code.logparams.FormattedLogbackParamsResolver"
+            contextTypeId="java-statements"
+            description="Evaluates to the concatenated parameters for logback style&lt;br&gt;Example:&lt;br&gt;&lt;br&gt;&lt;b&gt;logger.error(&quot;${enclosing_method}. ${formatted_logback_method_parameters});&lt;/b&gt;&lt;br&gt;&lt;br&gt;for method:&lt;br&gt;public static void method(String userName, String userEmail, String[] additionalParameters)&lt;br&gt;&lt;br&gt;will be resolved into:&lt;br&gt;logger.error(&quot;method. userName: {0}, userEmail: {1},  additionalParameters: {2}&quot;, userName, userEmail, additionalParameters);"
+            name="formatted_logback_method_parameters"
+            type="formatted_logback_method_parameters">
+      </resolver>
    </extension>
 
 </plugin>
