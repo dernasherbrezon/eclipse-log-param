@@ -22,7 +22,7 @@ public class FormattedParamsResolver extends TemplateVariableResolver {
 		StringBuilder result = new StringBuilder();
 		for (int i = 0; i < args.length; i++) {
 			if( i != 0 ) {
-				result.append("+ \"");
+				result.append("+ \" ");
 			}
 			String arg = args[i].trim();
 			result.append(arg);
