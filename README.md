@@ -42,17 +42,6 @@ public static void saveUserPreferences(String userName, String[] preferences) {
 }
 ```
 
-Installation
-------------
-
-Navigate to Help -> Install New Software...
-Type site update url:
-```
-https://eclipse-log-param.googlecode.com/svn/site/
-```
-
-Click install
-
 Hints
 -------
 
