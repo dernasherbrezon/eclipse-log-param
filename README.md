@@ -4,8 +4,19 @@ About
 Adds the following variables for code templates in eclipse:
   * "formatted_method_parameter" - log4j logging style.
   * "formatted_logback_method_parameters" - logback logging style
+  
+Installation
+------------
 
-HowTo
+ * Open Help -> Install New software.
+ * Click "Add..."
+ * Add repository:
+   * Name: eclipse-log-param
+   * Location: ```https://dl.bintray.com/dernasherbrezon/eclipse/```
+ * Select eclipse-log-param
+ * Restart eclipse
+
+Configuration
 -----
 
 Under Window -> Preferences -> Java -> Editor -> Templates click "New.."
